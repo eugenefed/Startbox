@@ -1,0 +1,20 @@
+# Confugure Windows
+
+Set-WindowsExplorerOptions -EnableShowHiddenFilesFoldersDrives -EnableShowProtectedOSFiles -EnableShowFileExtensions
+Enable-RemoteDesktop
+
+# cinst the required apps
+
+cinst googlechrome
+cinst firefox
+#cinst flashplayeractivex
+cinst notepadplusplus.cinst
+#cinst jre8 
+cinst 7zip.cinst
+#cinst git.cinst 
+cinst skype
+cinst slack
+
+# Windows updates
+
+Install-WindowsUpdate -AcceptEula
